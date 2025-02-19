@@ -1,0 +1,40 @@
+{
+    "main": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "Services",
+        "url": "/services/"
+      },
+      {
+        "title": "Development",
+        "url": "/development/"
+      },
+      {
+        "title": "Test Automation",
+        "url": "/test-automation/"
+      },
+      {
+        "title": "508 & ADA Compliance",
+        "url": "/accessibility/"
+      },
+      {
+        "title": "Salesforce Solutions",
+        "url": "/salesforce/"
+      },
+      {
+        "title": "AI Solutions",
+        "url": "/ai/"
+      },
+      {
+        "title": "About",
+        "url": "/about/"
+      },
+      {
+        "title": "Contact",
+        "url": "/contact/"
+      }
+    ]
+  }

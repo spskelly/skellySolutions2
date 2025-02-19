@@ -1,0 +1,7 @@
+<section id="cta">
+  <h2>{{ cta.title | default('Start Your Digital Transformation') }}</h2>
+  <p>
+    {{ cta.description | default('Discover the difference a dedicated, skilled partner can make in your digital journey. Contact Skelly Solutions today to explore how we can achieve your business goals together.') }}
+  </p>
+  <a href="{{ cta.buttonUrl | default('/contact/') }}" class="cta-button">{{ cta.buttonText | default('Get in Touch') }}</a>
+</section>

@@ -1,0 +1,33 @@
+---
+layout: base.njk
+title: Services Offered
+description: Explore How I Can Help Your Business
+permalink: /services/
+cta:
+  title: Start Your Digital Transformation
+  description: Discover the difference a dedicated, skilled partner can make in your digital journey. Contact Skelly Solutions today to explore how we can achieve your business goals together.
+  buttonText: Get in Touch
+  buttonUrl: /contact/
+---
+<main>
+  <section id="{{ serviceId }}-intro">
+    <h2>{{ serviceTitle }}</h2>
+    <p>{{ serviceDescription }}</p>
+  </section>
+
+  <section id="{{ serviceId }}-services">
+    <h2>{{ servicesTitle }}</h2>
+    <ul style="max-width: 800px; margin: 0 auto; text-align: left">
+      {% for service in services %}
+      <li>
+        <strong>{{ service.title }}:</strong>
+        {{ service.description }}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {{ content | safe }}
+
+  {% include "cta.njk" %}
+</main>

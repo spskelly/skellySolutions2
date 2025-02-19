@@ -1,0 +1,12 @@
+{
+    "name": "skelly-solutions",
+    "version": "1.0.0",
+    "description": "Skelly Solutions Website",
+    "scripts": {
+        "build": "eleventy",
+        "serve": "eleventy --serve"
+    },
+    "dependencies": {
+        "@11ty/eleventy": "^2.0.1"
+    }
+}
