@@ -210,6 +210,7 @@ main {
 .cta-button:hover {
     background-color: #C75000;
 }
+
 /* Hero Section Styling */
 #hero {
     background-size: cover;
@@ -243,9 +244,11 @@ main {
 .hero-content h2 {
     font-size: 2.5em; /* Adjusted font size for better fit */
     margin-bottom: 0.5em;
+    color: white;
 }
 
 .hero-content p {
     font-size: 1.2em; /* Adjusted font size for better fit */
     margin-bottom: 1em;
+    color: white;
 }
