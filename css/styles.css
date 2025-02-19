@@ -212,11 +212,10 @@ main {
 }
 /* Hero Section Styling */
 #hero {
-    /* background-image: url('images/hero-background.jpg'); */
     background-size: cover;
     background-position: center;
     position: relative;
-    color: white;
+    color: #333333; /* dark grey */
     height: 60vh;
     display: flex;
     align-items: center;
